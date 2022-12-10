@@ -9,7 +9,7 @@ const router = require('express').Router()
 // For example:
 //
 // For your `/api/puppies` routes:
-// router.use('/puppies', require('./puppies'))
+ router.use('/candies', require('./candies'))
 //
 // And for your `/api/kittens` routes:
 // router.use('/kittens', require('./kittens'))
